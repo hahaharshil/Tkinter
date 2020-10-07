@@ -11,6 +11,8 @@ fra.place()
 
 
 
+
+
 root.mainloop()
 
 
