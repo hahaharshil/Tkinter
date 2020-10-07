@@ -1,19 +1,54 @@
 from  tkinter import *
 import os
 
+
+def get():
+    name = ent.get()
+    passw = ent1.get()
+    result = int(name) + int(passw)
+    
+    entr = Entry(root)
+    entr.pack(side = BOTTOM)
+    entr.delete(0, 'end')
+    entr.insert(END , str(result))
+    
+
+
+
+
+
 root = Tk()
 
-canvas = Canvas(root, height = 700 , width = 700 , bg = "#131418" )
-canvas.pack()
 
-fra = Frame(root, bg = "#c40e61")
-fra.place()
+butt = Button(root , text = "Hi" , bg = "#c40e90" , activebackground = "#123456" , command = get)
+butt.pack(side = BOTTOM)
+
+ent = Entry(root)
+ent.pack()
+
+ent1 = Entry(root)
+ent1.pack()
+
+
+
+
+
+
+
+
 
 
 
 
 
 root.mainloop()
+
+
+
+
+
+
+
 
 
 
