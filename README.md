@@ -1,7 +1,4 @@
 # Tkinter
-
-These are the stuff i learnt till date..
-
 Spefic files:
 
 Junk:
